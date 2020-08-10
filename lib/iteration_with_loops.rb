@@ -9,7 +9,10 @@ def find_even_values(src)
     while j < src[i].count do
       if src[i][j] % 2 == 0 
         p src[i][j]
+      end
         j += 1
-    
+      end
+      i += 1
+    end
 
 end
